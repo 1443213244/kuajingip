@@ -8,7 +8,7 @@ bash stop.sh
 cd /home
 rm -rf shadowsocksr
 wget http://76.cserver.org/shadowsocksr-tc.tar.gz
-tar xvf  shadowsocksr-tc.tar
+tar xvf  shadowsocksr-tc.tar.gz
 cd /home/shadowsocksr
 sed -i 's/45.207.25.1/'$GATEWAY'/' /home/shadowsocksr/user-config.json
 bash run.sh
